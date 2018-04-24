@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 			https:'87.98.174.157:3128',
 		}))
 		.build()
-		await driver.get("https://whatismyipaddress.com/").catch((err)=>{
+		await driver.get("http://www.sustainablesites.org/").catch((err)=>{
 			console.log(err)
 		})
 		await driver.sleep(100000)
